@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/_nss_color_white"
+    android:clickable="true"
+    android:focusable="true">
+
+
+    <TextView
+        android:id="@+id/tv_toolbar_title"
+        style="@style/_nss_style_text_title"
+        android:text="@string/_nss_title_dashboard"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/line_title"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/_nss_color_gray"
+
+        app:layout_constraintTop_toBottomOf="@id/tv_toolbar_title" />
+
+    <TextView
+        android:id="@+id/tv_balance_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="1.2000.000 d"
+        android:textColor="@color/_nss_color_black"
+        android:textSize="@dimen/_nss_text_size_big"
+        android:textStyle="bold"
+
+        android:layout_marginTop="@dimen/_nss_base_margin"
+        android:layout_marginEnd="@dimen/_nss_base_margin"
+
+        app:layout_constraintTop_toBottomOf="@id/line_title"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_balance_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_nss_dashboard_balance_title"
+        android:textColor="@color/_nss_color_black"
+        android:textSize="@dimen/_nss_text_size_big"
+
+        android:layout_marginEnd="@dimen/_nss_base_margin"
+
+        app:layout_constraintTop_toTopOf="@id/tv_balance_value"
+        app:layout_constraintBottom_toBottomOf="@id/tv_balance_value"
+        app:layout_constraintEnd_toStartOf="@id/tv_balance_value" />
+
+    <Button
+        android:id="@+id/btn_phone_card"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_nss_dashboard_phone_card"
+        android:textSize="@dimen/_nss_text_size_normal"
+        android:textAllCaps="false"
+
+        android:layout_marginTop="@dimen/_nss_base_margin"
+        android:layout_marginStart="@dimen/_nss_base_margin"
+
+        app:layout_constraintTop_toBottomOf="@id/tv_balance_value"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btn_game_card"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_nss_dashboard_game_card"
+        android:textSize="@dimen/_nss_text_size_normal"
+        android:textAllCaps="false"
+
+        android:layout_marginTop="@dimen/_nss_base_margin"
+        android:layout_marginStart="@dimen/_nss_base_margin"
+
+        app:layout_constraintTop_toBottomOf="@id/tv_balance_value"
+        app:layout_constraintStart_toEndOf="@id/btn_phone_card" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

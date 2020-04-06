@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/_nss_color_white"
+    android:clickable="true"
+    android:focusable="true">
+
+    <TextView
+        android:id="@+id/tv_toolbar_title"
+        style="@style/_nss_style_text_title"
+        android:text="@string/_nss_phone_card_invoice_title"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <include layout="@layout/_nss_component_back_button" />
+
+    <ImageView
+        android:id="@+id/btn_print"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:src="@drawable/_nss_ic_print"
+        android:background="?attr/selectableItemBackgroundBorderless"
+
+        android:paddingEnd="@dimen/_nss_base_margin"
+
+        app:layout_constraintTop_toTopOf="@id/tv_toolbar_title"
+        app:layout_constraintBottom_toBottomOf="@id/tv_toolbar_title"
+        app:layout_constraintEnd_toEndOf="@id/tv_toolbar_title" />
+
+    <View
+        android:id="@+id/line_title"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/_nss_color_gray"
+
+        app:layout_constraintTop_toBottomOf="@id/tv_toolbar_title" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_card_invoice"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        tools:listitem="@layout/_nss_item_card_invoice_lv0"
+        tools:itemCount="3"
+
+        android:paddingStart="@dimen/_nss_base_margin"
+        android:paddingEnd="@dimen/_nss_base_margin"
+        android:layout_marginTop="@dimen/_nss_base_margin"
+        android:layout_marginBottom="@dimen/_nss_base_margin"
+
+        app:layout_constraintTop_toBottomOf="@+id/line_title"
+        app:layout_constraintBottom_toTopOf="@id/tv_total_money_title"/>
+
+    <TextView
+        android:id="@+id/tv_total_money_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/_nss_color_black"
+        android:textSize="@dimen/_nss_text_size_normal"
+        android:text="@string/_nss_game_card_invoice_total_money"
+
+        android:layout_marginEnd="3dp"
+
+        app:layout_constraintTop_toTopOf="@id/tv_total_money_value"
+        app:layout_constraintBottom_toBottomOf="@id/tv_total_money_value"
+        app:layout_constraintEnd_toStartOf="@id/tv_total_money_value"/>
+
+    <TextView
+        android:id="@+id/tv_total_money_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/_nss_color_black"
+        android:textSize="@dimen/_nss_text_size_big"
+        android:text="30.000 d"
+        android:textStyle="bold"
+
+        android:layout_marginBottom="@dimen/_nss_base_margin"
+        android:layout_marginEnd="@dimen/_nss_base_margin"
+
+        app:layout_constraintBottom_toTopOf="@id/btn_continue"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <Button
+        android:id="@+id/btn_continue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="@string/_nss_game_card_invoice_button_continue"
+        android:textColor="@color/_nss_color_black"
+        android:textSize="@dimen/_nss_text_size_big"
+
+        android:layout_marginTop="@dimen/_nss_base_margin"
+        android:layout_marginBottom="@dimen/_nss_base_margin"
+        android:layout_marginStart="@dimen/_nss_base_margin"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/btn_finish"/>
+
+    <Button
+        android:id="@+id/btn_finish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="@string/_nss_game_card_invoice_button_finish"
+        android:textColor="@color/_nss_color_black"
+        android:textSize="@dimen/_nss_text_size_big"
+
+        android:layout_marginTop="@dimen/_nss_base_margin"
+        android:layout_marginBottom="@dimen/_nss_base_margin"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btn_continue"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

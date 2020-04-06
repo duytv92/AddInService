@@ -1,0 +1,571 @@
+[
+    {
+        "id": 1,
+        "productTypeKey": "PHONE",
+        "productName": "Viettel",
+        "cardValues": [
+            {
+                "id": 1,
+                "name": "10.000 d",
+                "value": 10000
+            },
+            {
+                "id": 2,
+                "name": "20.000 d",
+                "value": 20000
+            },
+            {
+                "id": 3,
+                "name": "30.000 d",
+                "value": 30000
+            },
+            {
+                "id": 4,
+                "name": "50.000 d",
+                "value": 50000
+            },
+            {
+                "id": 5,
+                "name": "100.000 d",
+                "value": 100000
+            },
+            {
+                "id": 6,
+                "name": "200.000 d",
+                "value": 200000
+            },
+            {
+                "id": 7,
+                "name": "300.000 d",
+                "value": 300000
+            },
+            {
+                "id": 8,
+                "name": "500.000 d",
+                "value": 500000
+            },
+            {
+                "id": 269,
+                "name": "1.000.000 d",
+                "value": 1000000
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "productTypeKey": "PHONE",
+        "productName": "Vinaphone",
+        "cardValues": [
+            {
+                "id": 17,
+                "name": "10.000 d",
+                "value": 10000
+            },
+            {
+                "id": 18,
+                "name": "20.000 d",
+                "value": 20000
+            },
+            {
+                "id": 19,
+                "name": "30.000 d",
+                "value": 30000
+            },
+            {
+                "id": 20,
+                "name": "50.000 d",
+                "value": 50000
+            },
+            {
+                "id": 21,
+                "name": "100.000 d",
+                "value": 100000
+            },
+            {
+                "id": 22,
+                "name": "200.000 d",
+                "value": 200000
+            },
+            {
+                "id": 23,
+                "name": "300.000 d",
+                "value": 300000
+            },
+            {
+                "id": 24,
+                "name": "500.000 d",
+                "value": 500000
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "productTypeKey": "PHONE",
+        "productName": "Mobifone",
+        "cardValues": [
+            {
+                "id": 25,
+                "name": "10.000 d",
+                "value": 10000
+            },
+            {
+                "id": 26,
+                "name": "20.000 d",
+                "value": 20000
+            },
+            {
+                "id": 27,
+                "name": "30.000 d",
+                "value": 30000
+            },
+            {
+                "id": 28,
+                "name": "50.000 d",
+                "value": 50000
+            },
+            {
+                "id": 29,
+                "name": "100.000 d",
+                "value": 100000
+            },
+            {
+                "id": 30,
+                "name": "200.000 d",
+                "value": 200000
+            },
+            {
+                "id": 31,
+                "name": "300.000 d",
+                "value": 300000
+            },
+            {
+                "id": 32,
+                "name": "500.000 d",
+                "value": 500000
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "productTypeKey": "PHONE",
+        "productName": "Beeline",
+        "cardValues": [
+            {
+                "id": 74,
+                "name": "10.000 d",
+                "value": 10000
+            },
+            {
+                "id": 75,
+                "name": "20.000 d",
+                "value": 20000
+            },
+            {
+                "id": 76,
+                "name": "30.000 d",
+                "value": 30000
+            },
+            {
+                "id": 77,
+                "name": "50.000 d",
+                "value": 50000
+            },
+            {
+                "id": 78,
+                "name": "100.000 d",
+                "value": 100000
+            },
+            {
+                "id": 79,
+                "name": "200.000 d",
+                "value": 200000
+            },
+            {
+                "id": 80,
+                "name": "300.000 d",
+                "value": 300000
+            },
+            {
+                "id": 81,
+                "name": "500.000 d",
+                "value": 500000
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "productTypeKey": "PHONE",
+        "productName": "VNMobile",
+        "cardValues": [
+            {
+                "id": 82,
+                "name": "10.000 d",
+                "value": 10000
+            },
+            {
+                "id": 83,
+                "name": "20.000 d",
+                "value": 20000
+            },
+            {
+                "id": 84,
+                "name": "30.000 d",
+                "value": 30000
+            },
+            {
+                "id": 85,
+                "name": "50.000 d",
+                "value": 50000
+            },
+            {
+                "id": 86,
+                "name": "100.000 d",
+                "value": 100000
+            },
+            {
+                "id": 87,
+                "name": "200.000 d",
+                "value": 200000
+            },
+            {
+                "id": 88,
+                "name": "300.000 d",
+                "value": 300000
+            },
+            {
+                "id": 89,
+                "name": "500.000 d",
+                "value": 500000
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "productTypeKey": "GAME",
+        "productName": "Vcoin",
+        "cardValues": [
+            {
+                "id": 107,
+                "name": "10.000 d",
+                "value": 10000
+            },
+            {
+                "id": 41,
+                "name": "20.000 d",
+                "value": 20000
+            },
+            {
+                "id": 42,
+                "name": "50.000 d",
+                "value": 50000
+            },
+            {
+                "id": 43,
+                "name": "100.000 d",
+                "value": 100000
+            },
+            {
+                "id": 44,
+                "name": "200.000 d",
+                "value": 200000
+            },
+            {
+                "id": 45,
+                "name": "300.000 d",
+                "value": 300000
+            },
+            {
+                "id": 46,
+                "name": "500.000 d",
+                "value": 500000
+            },
+            {
+                "id": 254,
+                "name": "1.000.000 d",
+                "value": 1000000
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "productTypeKey": "GAME",
+        "productName": "Gate",
+        "cardValues": [
+            {
+                "id": 100,
+                "name": "10.000 d",
+                "value": 10000
+            },
+            {
+                "id": 57,
+                "name": "20.000 d",
+                "value": 20000
+            },
+            {
+                "id": 58,
+                "name": "30.000 d",
+                "value": 30000
+            },
+            {
+                "id": 59,
+                "name": "50.000 d",
+                "value": 50000
+            },
+            {
+                "id": 60,
+                "name": "60.000 d",
+                "value": 60000
+            },
+            {
+                "id": 101,
+                "name": "100.000 d",
+                "value": 100000
+            },
+            {
+                "id": 102,
+                "name": "200.000 d",
+                "value": 200000
+            },
+            {
+                "id": 103,
+                "name": "500.000 d",
+                "value": 500000
+            },
+            {
+                "id": 228,
+                "name": "1.000.000 d",
+                "value": 1000000
+            },
+            {
+                "id": 229,
+                "name": "2.000.000 d",
+                "value": 2000000
+            },
+            {
+                "id": 230,
+                "name": "5.000.000 d",
+                "value": 5000000
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "productTypeKey": "GAME",
+        "productName": "ZingCard",
+        "cardValues": [
+            {
+                "id": 108,
+                "name": "10.000 d",
+                "value": 10000
+            },
+            {
+                "id": 69,
+                "name": "20.000 d",
+                "value": 20000
+            },
+            {
+                "id": 110,
+                "name": "50.000 d",
+                "value": 50000
+            },
+            {
+                "id": 111,
+                "name": "100.000 d",
+                "value": 100000
+            },
+            {
+                "id": 112,
+                "name": "200.000 d",
+                "value": 200000
+            },
+            {
+                "id": 114,
+                "name": "500.000 d",
+                "value": 500000
+            },
+            {
+                "id": 225,
+                "name": "1.000.000 d",
+                "value": 1000000
+            },
+            {
+                "id": 226,
+                "name": "2.000.000 d",
+                "value": 2000000
+            },
+            {
+                "id": 227,
+                "name": "5.000.000 d",
+                "value": 5000000
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "productTypeKey": "GAME",
+        "productName": "Garena",
+        "cardValues": [
+            {
+                "id": 210,
+                "name": "20.000 d",
+                "value": 20000
+            },
+            {
+                "id": 211,
+                "name": "50.000 d",
+                "value": 50000
+            },
+            {
+                "id": 212,
+                "name": "100.000 d",
+                "value": 100000
+            },
+            {
+                "id": 213,
+                "name": "200.000 d",
+                "value": 200000
+            },
+            {
+                "id": 214,
+                "name": "500.000 d",
+                "value": 500000
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "productTypeKey": "GAME",
+        "productName": "OncashDN",
+        "cardValues": [
+            {
+                "id": 104,
+                "name": "10.000 d",
+                "value": 10000
+            },
+            {
+                "id": 90,
+                "name": "20.000 d",
+                "value": 20000
+            },
+            {
+                "id": 115,
+                "name": "30.000 d",
+                "value": 30000
+            },
+            {
+                "id": 105,
+                "name": "50.000 d",
+                "value": 50000
+            },
+            {
+                "id": 91,
+                "name": "60.000 d",
+                "value": 60000
+            },
+            {
+                "id": 92,
+                "name": "100.000 d",
+                "value": 100000
+            },
+            {
+                "id": 93,
+                "name": "200.000 d",
+                "value": 200000
+            },
+            {
+                "id": 106,
+                "name": "500.000 d",
+                "value": 500000
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "productproductTypeKey": "GAME",
+        "productName": "Bit",
+        "cardValues": [
+            {
+                "id": 313,
+                "name": "10.000 d",
+                "value": 10000
+            },
+            {
+                "id": 314,
+                "name": "20.000 d",
+                "value": 20000
+            },
+            {
+                "id": 315,
+                "name": "50.000 d",
+                "value": 50000
+            },
+            {
+                "id": 316,
+                "name": "100.000 d",
+                "value": 100000
+            },
+            {
+                "id": 317,
+                "name": "200.000 d",
+                "value": 200000
+            },
+            {
+                "id": 318,
+                "name": "500.000 d",
+                "value": 500000
+            },
+            {
+                "id": 319,
+                "name": "1.000.000 d",
+                "value": 1000000
+            },
+            {
+                "id": 320,
+                "name": "2.000.000 d",
+                "value": 2000000
+            },
+            {
+                "id": 321,
+                "name": "5.000.000 d",
+                "value": 5000000
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "productTypeKey": "GAME",
+        "productName": "DataVNP",
+        "cardValues": [
+            {
+                "id": 322,
+                "name": "20.000 d",
+                "value": 20000
+            },
+            {
+                "id": 323,
+                "name": "50.000 d",
+                "value": 50000
+            },
+            {
+                "id": 324,
+                "name": "70.000 d",
+                "value": 70000
+            },
+            {
+                "id": 325,
+                "name": "100.000 d",
+                "value": 100000
+            },
+            {
+                "id": 326,
+                "name": "120.000 d",
+                "value": 120000
+            },
+            {
+                "id": 327,
+                "name": "150.000 d",
+                "value": 150000
+            }
+        ]
+    }
+]

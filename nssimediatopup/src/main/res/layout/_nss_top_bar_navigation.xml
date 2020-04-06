@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tool="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/txtTopBarTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/_nss_text_size_normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tool:text="@string/nss_info_title"
+        android:padding="@dimen/_nss_base_margin"
+        android:textColor="@color/_nss_color_black"/>
+
+    <!--<TextView
+        android:id="@+id/txtSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:padding="@dimen/base_margin"
+        android:textColor="@color/main_blue_color"
+        android:textSize="@dimen/txt_tool_bar_size"
+        app:layout_constraintBottom_toBottomOf="@id/txtTopBarTitle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/txtTopBarTitle"
+        android:visibility="gone" />-->
+
+    <ImageView
+        android:id="@+id/iv_back_button"
+        android:layout_width="@dimen/_nss_top_action_bar_ic_size"
+        android:layout_height="@dimen/_nss_top_action_bar_ic_size"
+        android:src="@drawable/_nss_ic_chevron_left"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="@dimen/_nss_base_margin"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/_nss_color_black"
+        app:layout_constraintTop_toBottomOf="@id/txtTopBarTitle" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,14 @@
+
+<ImageView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/iv_back_button"
+    android:layout_width="@dimen/_nss_top_action_bar_ic_size"
+    android:layout_height="0dp"
+    android:src="@drawable/_nss_ic_chevron_left"
+    android:tint="@color/_nss_color_black"
+
+    android:layout_marginStart="@dimen/_nss_base_margin"
+    android:background="?attr/selectableItemBackgroundBorderless"
+    app:layout_constraintBottom_toBottomOf="@id/tv_toolbar_title"
+    app:layout_constraintStart_toStartOf="@+id/tv_toolbar_title"
+    app:layout_constraintTop_toTopOf="@id/tv_toolbar_title" />

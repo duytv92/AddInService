@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:cardCornerRadius="@dimen/_5sdp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:paddingTop="@dimen/_nss_base_margin"
+        android:paddingBottom="@dimen/_nss_base_margin"
+        android:paddingStart="@dimen/_nss_base_margin"
+        android:paddingEnd="@dimen/_nss_base_margin"
+        android:background="@color/_nss_color_background_cart">
+
+        <TextView
+            android:id="@+id/tv_cart_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_nss_phone_cart_title"
+            android:textColor="@color/_nss_color_black"
+            android:textSize="@dimen/_nss_text_size_big"
+            android:textStyle="bold"
+
+            android:layout_marginTop="@dimen/_nss_base_margin"
+
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_cart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:background="@color/_nss_color_white"
+            android:layout_marginTop="@dimen/_nss_base_margin"
+            android:layout_marginBottom="@dimen/_nss_base_margin"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            tools:listitem="@layout/_nss_item_cart"
+
+            app:layout_constraintTop_toBottomOf="@id/tv_cart_title"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="@dimen/_nss_base_margin"
+    android:layout_marginBottom="@dimen/_nss_base_margin">
+
+    <TextView
+        android:id="@+id/tv_invoice_lv0_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/_nss_text_size_big"
+        android:textStyle="bold"
+        android:textColor="@color/_nss_color_black"
+        android:text="Zing" />
+
+</LinearLayout>

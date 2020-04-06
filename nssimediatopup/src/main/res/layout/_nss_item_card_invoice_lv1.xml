@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:paddingStart="@dimen/_nss_base_margin"
+    android:paddingEnd="@dimen/_nss_base_margin"
+    android:paddingTop="@dimen/_nss_base_margin"
+    android:paddingBottom="@dimen/_nss_base_margin">
+
+    <LinearLayout
+        android:id="@+id/layout_serial"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/layout_key_card"
+        app:layout_constraintHorizontal_chainStyle="spread_inside"
+        app:layout_constraintHorizontal_weight="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/_nss_style_text_card_invoice"
+            android:text="@string/_nss_card_invoice_serial_number" />
+
+        <TextView
+            android:id="@+id/tv_serial_value"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            style="@style/_nss_style_text_card_invoice"
+            android:text="000203827387"
+            android:layout_marginStart="3dp"
+            android:layout_marginEnd="@dimen/_nss_base_margin"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_key_card"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/layout_serial"
+        app:layout_constraintEnd_toStartOf="@id/layout_card_price"
+        app:layout_constraintHorizontal_weight="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/_nss_style_text_card_invoice"
+            android:text="@string/_nss_card_invoice_key_card" />
+
+        <TextView
+            android:id="@+id/tv_key_card_value"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            style="@style/_nss_style_text_card_invoice"
+            android:text="000203827387"
+            android:layout_marginStart="3dp"
+            android:layout_marginEnd="@dimen/_nss_base_margin"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_card_price"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/layout_key_card"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_weight="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/_nss_style_text_card_invoice"
+            android:text="@string/_nss_card_invoice_card_value" />
+        <TextView
+            android:id="@+id/tv_card_price_value"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            style="@style/_nss_style_text_card_invoice"
+            android:text="10.000 d"
+            android:layout_marginStart="3dp"
+            android:layout_marginEnd="@dimen/_nss_base_margin"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

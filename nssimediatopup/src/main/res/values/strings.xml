@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Nss Imedia Topup</string>
+
+    <string name="_nss_title_dashboard">Dashboard</string>
+
+
+    <string name="_nss_parent_tag">parent_fragment</string>
+
+    <!-- dashboard strings-->
+    <string name="_nss_dashboard_phone_card">Nạp thẻ điện thoại</string>
+    <string name="_nss_dashboard_game_card">Thẻ game</string>
+    <string name="_nss_dashboard_balance_title">Balance:</string>
+
+    <!-- game card strings-->
+    <string name="_nss_game_card_title">Nạp thẻ game</string>
+    <string name="_nss_game_card_invoice_title">Thông tin thẻ cào game</string>
+    <string name="_nss_game_card_invoice_total_money">Tiền thanh toán</string>
+    <string name="_nss_game_card_invoice_button_continue">Tiếp tục</string>
+    <string name="_nss_game_card_invoice_button_finish">Kết thúc</string>
+    <string name="_nss_card_invoice_serial_number">Số Serial:</string>
+    <string name="_nss_card_invoice_key_card">Mã thẻ:</string>
+    <string name="_nss_card_invoice_card_value">Mệnh giá:</string>
+
+    <!-- phone card fragment strings-->
+    <string name="_nss_phone_prepay_title">Thanh toán trả trước</string>
+    <string name="_nss_phone_scratch_card_title">Thẻ cào</string>
+    <string name="_nss_phone_input_phone_number">Nhập số điện thoại</string>
+    <string name="_nss_phone_cart_title">Giỏ hàng</string>
+    <string name="_nss_phone_payment">Thanh toán</string>
+    <string name="_nss_phone_card_invoice_title">Thông tin thẻ cào điện thoại</string>
+
+
+    <!-- dialog strings-->
+    <string name="_nss_dialog_notification_title">Thông báo</string>
+    <string name="_nss_dialog_not_enough_money_message">Số tiền không đủ để thực hiện giao dịch.\n Vui lòng nạp thêm hoặc gọi tư vấn viên của netstars.vn</string>
+    <string name="_nss_dialog_button_cancel">Huỷ</string>
+    <string name="_nss_dialog_button_recharge">Nạp tiền vào ví</string>
+
+
+    <!-- server_response message-->
+    <string name="_nss_err_CONNECTION">Lỗi kết nối mạng!</string>
+    <string name="_nss_err_SOCKET_TIMEOUT">Không có kết nối tới server!</string>
+    <string name="_nss_err_OTHER_ERROR">Lỗi hệ thống!</string>
+    <string name="nss_info_title">Thông tin thanh toán</string>
+
+    <string name="nss_telecom_title">Nhà Mạng</string>
+    <string name="nss_telecom_phone_numbet">Số điện thoại</string>
+    <string name="nss_telecom_money">Mệnh giá</string>
+    <string name="nss_telecom_fee">Phí giao dịch</string>
+    <string name="nss_telecom_amount">Tổng tiền</string>
+
+    <string name="nss_title_payment">Nạp tiền qua ngân hàng</string>
+    <string name="nss_ttitle_support_payment">Gọi tổng đài Nestars</string>
+</resources>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tv_cart_card_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/_nss_text_size_normal"
+        android:textColor="@color/_nss_color_black"
+        android:text="Viettel"
+
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/tv_cart_card_value"
+
+        app:layout_constraintHorizontal_weight="3"
+        app:layout_constraintVertical_chainStyle="spread_inside"/>
+
+    <TextView
+        android:id="@+id/tv_cart_card_value"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/_nss_text_size_normal"
+        android:textColor="@color/_nss_color_black"
+        android:text="10.000d"
+        android:textStyle="bold"
+
+        app:layout_constraintTop_toTopOf="@id/tv_cart_card_name"
+        app:layout_constraintBottom_toBottomOf="@id/tv_cart_card_name"
+        app:layout_constraintStart_toEndOf="@id/tv_cart_card_name"
+        app:layout_constraintEnd_toStartOf="@id/tv_cart_quantity"
+        app:layout_constraintHorizontal_weight="4" />
+
+    <TextView
+        android:id="@+id/tv_cart_quantity"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/_nss_text_size_normal"
+        android:textColor="@color/_nss_color_black"
+        android:text="3"
+        android:gravity="center"
+
+        app:layout_constraintTop_toTopOf="@id/tv_cart_card_name"
+        app:layout_constraintBottom_toBottomOf="@id/tv_cart_card_name"
+        app:layout_constraintStart_toEndOf="@id/tv_cart_card_value"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_weight="3"/>
+
+    <ImageView
+        android:id="@+id/btn_cart_add"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintDimensionRatio="1"
+        android:src="@drawable/_nss_ic_add"
+        android:background="?attr/selectableItemBackgroundBorderless"
+
+        android:layout_marginStart="@dimen/_nss_base_margin"
+
+        app:layout_constraintTop_toTopOf="@id/tv_cart_card_name"
+        app:layout_constraintBottom_toBottomOf="@id/tv_cart_card_name"
+        app:layout_constraintStart_toEndOf="@id/tv_cart_quantity"/>
+
+    <ImageView
+        android:id="@+id/btn_cart_remove"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintDimensionRatio="1"
+        android:src="@drawable/_nss_ic_remove"
+        android:background="?attr/selectableItemBackgroundBorderless"
+
+        android:layout_marginEnd="@dimen/_nss_base_margin"
+        android:layout_marginStart="@dimen/_nss_base_margin"
+
+        app:layout_constraintTop_toTopOf="@id/tv_cart_card_name"
+        app:layout_constraintBottom_toBottomOf="@id/tv_cart_card_name"
+        app:layout_constraintStart_toEndOf="@id/btn_cart_add"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

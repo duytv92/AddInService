@@ -1,0 +1,2 @@
+include ':app', ':nssimediatopup'
+rootProject.name='AddIn Services'

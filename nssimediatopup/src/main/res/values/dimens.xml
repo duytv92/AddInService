@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="_nss_base_margin">@dimen/_5sdp</dimen>
+    <dimen name="_nss_double_base_margin">@dimen/_10sdp</dimen>
+    <dimen name="_nss_text_size_tiny">@dimen/_5sdp</dimen>
+    <dimen name="_nss_text_size_small">@dimen/_6sdp</dimen>
+    <dimen name="_nss_text_size_normal">@dimen/_8sdp</dimen>
+    <dimen name="_nss_text_size_big">@dimen/_9sdp</dimen>
+    <dimen name="_nss_text_size_large">@dimen/_10sdp</dimen>
+
+
+    <!-- level translation z-->
+    <dimen name="_nss_translationz_loading_level">200dp</dimen>
+
+
+    <dimen name="_nss_top_action_bar_ic_size">@dimen/_15sdp</dimen>
+</resources>
